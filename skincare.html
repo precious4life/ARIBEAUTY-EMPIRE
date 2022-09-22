@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aribeauty empire</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+<style>
+
+
+   main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    color: azure;
+    background-color: rgba(74, 104, 9, 0.401);
+   }
+   
+   main section {
+    text-align: center;
+   }
+   main section img{
+    box-sizing: border-box;
+    padding-top: 39px;
+   }
+   .face-cleanser_img{
+    width: 60%;
+}
+.face-cleanser h2:hover{
+    color: aqua;
+}
+.face-cleanser h2{
+    transition: transform .5s;
+}
+.face-cleanser h2:hover {
+    opacity: .6;
+    transform: scale(1.1)
+}
+
+
+.view{
+    background-color: rgba(114, 181, 70, 0.7);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 10px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+    
+    @media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer { 
+        margin-top: 10px;
+    }
+    h2{
+        font-size: 12px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+}
+   
+
+
+</style>
+
+
+
+</head>
+
+<body>
+<div id="content">
+    <header>
+        <a id="logo-link" href="index.html">
+            <img class="logo" src="images/itb PNG organic.png" alt="Dry Oar Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Skin Care Products</a>
+            <a href="#">Makeovers Products</a>
+            <a href="">Our Works</a>
+            <a href="">About Us</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+    <main class="products-grid">
+        <section class="face-cleanser">
+            <img class="face-cleanser_img" src="images/skincare/it1.JPG" alt="litghtening body milk">
+            <h2>LIGHTENING BODY MILK CREAM</h2><a class="view" href="lbc.html">view product</a>
+
+        </section>
+
+        <section class="face-cleanser">
+            <img class="face-cleanser_img" src="images/skincare/it2a.jpg" alt="face cleanser">
+            <h2> LIGHTENING BLACK SOAP</h2><a class="view" href="black soap.html">view product</a>
+        </section>
+
+        <section class="face-cleanser">
+            <img class="face-cleanser_img" src="images/skincare/FACE CREAM.jpg" alt="face cleanser">
+            <h2>FACE CREAM</h2><a class="view" href="lightening body milk cream">view product</a>
+        </section>
+
+        <section class="face-cleanser">
+            <img class="face-cleanser_img" src="images/skincarE/FACE TOONER (2).JPG" alt="face cleanser">
+            <h2>ANTI BLEMISH FACE TOONER</h2><a class="view" href="lightening body milk cream">view product</a>
+        </section>
+
+        <section class="face-cleanser">
+            <img class="face-cleanser_img" src="images/skincare/SCRUB.jpg" alt="face cleanser">
+            <h2>FACE AND BODY SCRUB</h2><a class="view" href="lightening body milk cream">view product</a>
+        </section>
+
+
+
+
+       
+    </main>
+    
+    <footer>
+        <h3>ARIBEAUTY EMPIRE&copy 2022</h3>
+        <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+        <h3><a href="contactus.html">Contact Us</a></h3>
+        <div class="social">
+            <a href="https://web.facebook.com/aribeauti/" target="_blank">
+                <img class="socialic" src="images/social icons/facebook.png" alt="aribeauty facebook page">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img class="socialic" src="images/social icons/twitter.png" alt="aribeauty twitter page">
+            </a>
+            <a href="https://www.instagram.com/aribeauty_empire/" target="_blank">
+                <img class="socialic" src="images/social icons/instagram.png" alt="aribeauty instagram page">
+            </a>
+
+            <a href="https://wa.me/c/2347063931438" target="_blank">
+                <img class="socialic" src="images/social icons/whatsapp.png" alt="aribeauty whatsapp page">
+            </a>
+
+            <a href="https://www.youtube.com/channel/UCKEYWSBsiE2PxYXn0Umuvtg/featured" target="_blank">
+                <img class="socialic" src="images/social icons/youtube.png" alt=" aribeauty youtube page">
+            </a>
+           
+        </div>
+    </footer>
+</div>
+</body>
+</html>
